@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  margin: 0%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg_gradient {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 64% 75%, rgba(0, 40, 83, 1) 0%, rgba(6, 5, 60, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 64% 75%, rgba(0, 40, 83, 1) 0%, rgba(6, 5, 60, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 64% 75%, rgba(0, 40, 83, 1) 0%, rgba(6, 5, 60, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 64% 75%, rgba(0, 40, 83, 1) 0%, rgba(6, 5, 60, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 64% 75%, rgba(0, 40, 83, 1) 0%, rgba(6, 5, 60, 1) 100%);
+}
+
+h1.header-text {
+  background-image: radial-gradient(circle at 64% 75%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 3.5rem;
+  margin-top: 2em;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+h2.header-text {
+  background-image: radial-gradient(circle at 64% 75%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 2em;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.about-area {
+  background-color: #040C18;
+  position: absolute;
+}
+
+p.p-text {
+  color: #81AFDD;
+  text-align: left;
+  word-wrap: break-word;
+  font-weight: 600;
+}
+
+p.p-gradient {
+  background-image: radial-gradient(circle at 64% 75%, rgba(174, 103, 250, 1) 0%, rgba(244, 152, 103, 1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+strong {
+  font-weight: 800;
+  color-scheme: #fff;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+strong.gpt {
+  color: #fff;
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 2.5rem;
+}
+
+
+
+.about-div {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 49% 45%, rgba(15, 66, 121, 1) 0%, rgba(15, 66, 121, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 49% 45%, rgba(15, 66, 121, 1) 0%, rgba(15, 66, 121, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 49% 45%, rgba(15, 66, 121, 1) 0%, rgba(15, 66, 121, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 49% 45%, rgba(15, 66, 121, 1) 0%, rgba(15, 66, 121, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 49% 45%, rgba(15, 66, 121, 1) 0%, rgba(15, 66, 121, 1) 85%, rgba(27, 120, 222, 1) 100%);
+  position: relative;
+  border-radius: 16px;
+  box-shadow: 5px 5px 12px rgba(0, 40, 83, 1);
+
+}
+
+h4 {
+  color: #fff;
+  text-align: left;
+  word-wrap: break-word;
+}
